@@ -952,7 +952,7 @@ typedef void (^ASIDataBlock)(NSData *data);
 @property (assign) unsigned long long postLength;
 @property (assign) BOOL shouldResetDownloadProgress;
 @property (assign) BOOL shouldResetUploadProgress;
-@property (assign) ASIHTTPRequest *mainRequest;
+@property (retain) ASIHTTPRequest *mainRequest;
 @property (assign) BOOL showAccurateProgress;
 @property (assign) unsigned long long totalBytesRead;
 @property (assign) unsigned long long totalBytesSent;

@@ -350,6 +350,7 @@ static NSOperationQueue *sharedQueue = nil;
 	[statusTimer release];
 	[queue release];
 	[userInfo release];
+	[mainRequest release];
 	[postBody release];
 	[compressedPostBody release];
 	[error release];
